@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@rfm-2024/apps": ["apps/*"],
+      "@rfm-2024/rfm-admin": ["packages/rfm-admin-app/index.ts"],
+      "@rfm-2024/shared": ["packages/shared/index.ts"],
+      "@rfm-2024fm/rfm-mobile-app": ["packages/rfm-mobile-app/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

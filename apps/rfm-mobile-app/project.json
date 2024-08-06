@@ -1,0 +1,9 @@
+{
+  "name": "rfm-mobile-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/rfm-mobile-app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project rfm-mobile-app --web",
+  "targets": {}
+}
