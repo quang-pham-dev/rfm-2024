@@ -16,9 +16,14 @@
     "baseUrl": ".",
     "paths": {
       "@rfm-2024/apps": ["apps/*"],
+      "@rfm-2024/constants": ["packages/shared/constants/src/index.ts"],
+      "@rfm-2024/home": ["packages/rfm-admin-app/home/src/index.ts"],
+      "@rfm-2024/hooks": ["packages/shared/hooks/src/index.ts"],
       "@rfm-2024/rfm-admin": ["packages/rfm-admin-app/index.ts"],
+      "@rfm-2024/rfm-mobile-app": ["packages/rfm-mobile-app/index.ts"],
       "@rfm-2024/shared": ["packages/shared/index.ts"],
-      "@rfm-2024fm/rfm-mobile-app": ["packages/rfm-mobile-app/index.ts"]
+      "@rfm-2024/ui": ["packages/shared/ui/src/index.ts"],
+      "@rfm-2024/models": ["packages/shared/models/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
